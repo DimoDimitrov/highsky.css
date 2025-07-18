@@ -1,19 +1,9 @@
-/* CHAT BUBBLE ICON */
-.vfrc-launcher,
-.vfrc-launcher *,
-.vfrc-launcher::before,
-.vfrc-launcher::after {
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-}
-
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
   background-size: contain !important;
   background-position: center !important;
-  width: 60px !important; /* Adjust width as needed */
-  height: 60px !important; /* Adjust height as needed */
+  width: 100px !important; /* Adjust width as needed */
+  height: 100px !important; /* Adjust height as needed */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
 }
