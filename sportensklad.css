@@ -1,7 +1,8 @@
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
-  background-size: contain !important;
+  background-size: 70% !important; /* Scale down to crop out the white border */
   background-position: center !important;
+  background-repeat: no-repeat !important;
   width: 100px !important; /* Adjust width as needed */
   height: 100px !important; /* Adjust height as needed */
   border: none !important; /* Remove any borders */
