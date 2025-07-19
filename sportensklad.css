@@ -1,7 +1,7 @@
 /* CHAT BUBBLE ICON */
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
-  background-size: 180% !important; /* Scale up to make inner logo bigger */
+  background-size: 300% !important; /* Scale up significantly to make inner logo fill container */
   background-position: center !important;
   background-repeat: no-repeat !important;
   width: 100% !important; /* Use full width of Voiceflow launcher */
