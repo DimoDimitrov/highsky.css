@@ -7,7 +7,7 @@
   height: 100% !important; /* Use full height of Voiceflow launcher */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
-  overflow: hidden !important; /* Crop out the blue background */
+  /* overflow: hidden !important; Crop out the blue background */
 }
 
 /* Ensure the existing icon is not visible */
