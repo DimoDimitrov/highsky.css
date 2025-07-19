@@ -10,14 +10,13 @@
 
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
-  background-size: 150% !important; /* Scale up to make inner logo bigger */
+  background-size: 60% !important; /* Scale down to focus on inner chat bubble */
   background-position: center !important;
   background-repeat: no-repeat !important;
   width: 100% !important; /* Use full width of Voiceflow launcher */
   height: 100% !important; /* Use full height of Voiceflow launcher */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
-  overflow: hidden !important; /* Crop out the blue background */
 }
 
 /* Ensure the existing icon is not visible */
