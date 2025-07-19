@@ -1,14 +1,12 @@
 /* CHAT BUBBLE ICON */
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
-  background-size: 300% !important; /* Scale up significantly to make inner logo fill container */
+  background-size: contain !important;
   background-position: center !important;
-  background-repeat: no-repeat !important;
-  width: 100% !important; /* Use full width of Voiceflow launcher */
-  height: 100% !important; /* Use full height of Voiceflow launcher */
+  width: 60px !important; /* Adjust width as needed */
+  height: 60px !important; /* Adjust height as needed */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
-  overflow: hidden !important; /* Crop out the blue background */
 }
 
 /* Ensure the existing icon is not visible */
