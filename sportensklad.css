@@ -1,13 +1,13 @@
 .vfrc-launcher {
-  background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
-  background-size: 120% !important; /* Scale up the entire image */
+  /* background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
+  background-size: 120% !important; Scale up the entire image */
   background-position: center !important;
   background-repeat: no-repeat !important;
   width: 60px !important; /* Adjust width as needed */
   height: 60px !important; /* Adjust height as needed */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
-  overflow: hidden !important; /* Crop out the blue background */
+  /* overflow: hidden !important; Crop out the blue background */
 }
 
 /* Ensure the existing icon is not visible */
