@@ -1,3 +1,13 @@
+/* CHAT BUBBLE ICON */
+.vfrc-launcher,
+.vfrc-launcher *,
+.vfrc-launcher::before,
+.vfrc-launcher::after {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-CJi2WCDu.png') !important;
   background-size: 150% !important; /* Scale up to make inner logo bigger */
