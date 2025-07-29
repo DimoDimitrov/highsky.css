@@ -3,11 +3,11 @@
 .vfrc-launcher[data-vfrc-launcher],
 div[data-vfrc-launcher] {
   background-image: url('https://highsky.ai/assets/skaladnew-BC0YI5sF.png') !important;
-  background-size: 85% 85% !important; /* Force full size */
+  background-size: 90% 90% !important; /* Force full size */
   background-position: center !important;
   background-repeat: no-repeat !important;
-  width: 80px !important; /* Make the icon bigger */
-  height: 80px !important; /* Make the icon bigger */
+  width: 85px !important; /* Make the icon bigger */
+  height: 85px !important; /* Make the icon bigger */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
   /* border-radius: 50% !important; Remove circular shape to show full image */
