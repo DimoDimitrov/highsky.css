@@ -1,7 +1,7 @@
 /* CHAT BUBBLE ICON */
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-BC0YI5sF.png') !important;
-  background-size: 90% 90% !important; /* Force the image to fill the entire container */
+  background-size: 80% 80% !important; /* Force the image to fill the entire container */
   background-position: center !important;
   background-repeat: no-repeat !important;
   width: 70px !important; /* Make the icon bigger */
