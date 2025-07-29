@@ -1,17 +1,18 @@
 /* CHAT BUBBLE ICON */
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-BC0YI5sF.png') !important;
-  background-size: cover !important; /* Scale the image to cover the entire area */
+  background-size: contain !important; /* Show the full image without cropping */
   background-position: center !important;
   background-repeat: no-repeat !important;
   width: 70px !important; /* Make the icon bigger */
   height: 70px !important; /* Make the icon bigger */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
-  border-radius: 50% !important; /* Make it circular */
-  overflow: hidden !important; /* Hide the blue background */
+  /* border-radius: 50% !important; Remove circular shape to show full image */
+  /* overflow: hidden !important; Remove overflow hidden to show full image */
   /* clip-path: circle(40% at center) !important; Clip to show only the center portion */
 }
+
 
 /* Ensure the existing icon is not visible */
 .vfrc-launcher img {
