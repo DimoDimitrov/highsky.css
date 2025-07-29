@@ -1,7 +1,7 @@
 /* CHAT BUBBLE ICON */
 .vfrc-launcher {
   background-image: url('https://highsky.ai/assets/skaladnew-BC0YI5sF.png') !important;
-  /* background-size: 60% !important; Scale up the image more */
+  background-size: cover !important; /* Scale the image to cover the entire area */
   background-position: center !important;
   background-repeat: no-repeat !important;
   width: 70px !important; /* Make the icon bigger */
@@ -37,13 +37,8 @@
 /* Set the avatar image */
 .vfrc-avatar {
   background-image: url('https://highsky-web.netlify.app/assets/logo-sportensklad-otpred-D0_2nqat.png') !important;
-  background-size: cover !important; /* Cover the entire area while maintaining aspect ratio */
+  background-size: contain !important; /* Cover the entire area */
   background-position: center !important;
-  background-repeat: no-repeat !important;
-  width: 40px !important; /* Set specific width */
-  height: 40px !important; /* Set specific height */
-  border-radius: 50% !important; /* Make it circular */
-  overflow: hidden !important; /* Hide any overflow */
 }
 
 /* Ensure the existing avatar is not visible */
