@@ -37,8 +37,13 @@
 /* Set the avatar image */
 .vfrc-avatar {
   background-image: url('https://highsky-web.netlify.app/assets/logo-sportensklad-otpred-D0_2nqat.png') !important;
-  background-size: contain !important; /* Cover the entire area */
+  background-size: cover !important; /* Cover the entire area while maintaining aspect ratio */
   background-position: center !important;
+  background-repeat: no-repeat !important;
+  width: 40px !important; /* Set specific width */
+  height: 40px !important; /* Set specific height */
+  border-radius: 50% !important; /* Make it circular */
+  overflow: hidden !important; /* Hide any overflow */
 }
 
 /* Ensure the existing avatar is not visible */
