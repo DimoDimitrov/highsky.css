@@ -9,7 +9,7 @@
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
   border-radius: 50% !important; /* Make it circular */
-  background-color: transparent !important; /* Make the background transparent */
+  background-color: white !important; /* Make the background transparent */
   overflow: hidden !important; /* Hide the blue background */
   clip-path: circle(60% at center) !important; /* Clip to show only the center portion */
 }
