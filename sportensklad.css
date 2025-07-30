@@ -12,7 +12,7 @@ div[data-vfrc-launcher] {
   padding: 0 !important; /* Remove any padding */
   /* border-radius: 50% !important; Remove circular shape to show full image */
   overflow: hidden !important; /* Keep overflow hidden but remove clip-path */
-  clip-path: circle(40% at center) !important; /* Remove clip-path to show full image */
+  clip-path: circle(70% at center) !important; /* Remove clip-path to show full image */
 }
 
 /* Ensure the existing icon is not visible */
