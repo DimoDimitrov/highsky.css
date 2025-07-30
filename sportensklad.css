@@ -10,6 +10,7 @@
   padding: 0 !important; /* Remove any padding */
   border-radius: 50% !important; /* Remove circular shape to show full image */
   overflow: hidden !important; /* Keep overflow hidden but remove clip-path */
+  transform: scale(1.5) !important; /* Scale up the entire element */
   /* clip-path: circle(40% at center) !important; Keep circular clipping */
 }
 
