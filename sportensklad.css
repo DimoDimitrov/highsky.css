@@ -6,8 +6,8 @@ div[data-vfrc-launcher] {
   background-size: 180% 180% !important; /* Significantly increase size to make inner graphic larger */
   background-position: center !important;
   background-repeat: no-repeat !important;
-  width: 70px !important; /* Make the icon bigger */
-  height: 70px !important; /* Make the icon bigger */
+  width: 60px !important; /* Make the icon bigger */
+  height: 60px !important; /* Make the icon bigger */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
   /* border-radius: 50% !important; Remove circular shape to show full image */
