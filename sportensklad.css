@@ -3,7 +3,7 @@
 .vfrc-launcher[data-vfrc-launcher],
 div[data-vfrc-launcher] {
   background-image: url('https://highsky.ai/assets/skaladnew-C0y4EvaX.png') !important;
-  background-size: 100% 100% !important; /* Force full size */
+  background-size: 120% 120% !important; /* Make the image larger to fill more space */
   background-position: center !important;
   background-repeat: no-repeat !important;
   width: 70px !important; /* Make the icon bigger */
@@ -11,8 +11,8 @@ div[data-vfrc-launcher] {
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
   /* border-radius: 50% !important; Remove circular shape to show full image */
-  overflow: hidden !important; /* Remove overflow hidden to show full image */
-  clip-path: circle(40% at center) !important; /* Clip to show only the center portion */
+  overflow: hidden !important; /* Keep overflow hidden but remove clip-path */
+  /* clip-path: circle(40% at center) !important; Remove clip-path to show full image */
 }
 
 /* Ensure the existing icon is not visible */
