@@ -45,7 +45,7 @@
   right: 40px !important;
   left: auto !important;
   position: fixed !important;
-  bottom: 30px !important; /* Move higher from bottom */
+  bottom: 50px !important; /* Move higher from bottom */
 }
 
 /*WATERMARK*/
@@ -55,7 +55,7 @@
     font-size: 0; /* Hides original text if any exists, while keeping the element in document flow */
     width: 100%; /* Ensures the footer spans the full width of its container */
     position: relative !important; /* Enable positioning */
-    bottom: 30px !important; /* Move watermark text higher */
+    bottom: 50px !important; /* Move watermark text higher */
 }
 
 .vfrc-footer--watermark::after {
@@ -65,7 +65,7 @@
     cursor: default; /* Default cursor to indicate non-clickable text */
     visibility: visible; /* Ensures it's seen */
     position: relative !important; /* Enable positioning */
-    bottom: 30px !important; /* Move watermark text higher */
+    bottom: 50px !important; /* Move watermark text higher */
 }
 
 /* Set the avatar image */
