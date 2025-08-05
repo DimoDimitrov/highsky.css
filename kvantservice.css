@@ -9,6 +9,7 @@
   padding: 0 !important; /* Remove any padding */
   right: 20px !important; /* Position on the right side */
   left: auto !important; /* Override default left positioning */
+  position: fixed !important; /* Ensure fixed positioning */
 }
 
 /* Ensure the existing icon is not visible */
@@ -20,12 +21,27 @@
 .vfrc-widget {
   right: 20px !important;
   left: auto !important;
+  position: fixed !important;
+}
+
+/* Position the chat container on the right */
+.vfrc-chat {
+  right: 20px !important;
+  left: auto !important;
+  position: fixed !important;
 }
 
 /* Position chat messages to align with right-side positioning */
 .vfrc-message {
   margin-left: auto !important;
   margin-right: 0 !important;
+}
+
+/* Ensure the chat interface container is positioned correctly */
+.vfrc-chat-container {
+  right: 20px !important;
+  left: auto !important;
+  position: fixed !important;
 }
 
 /*WATERMARK*/
