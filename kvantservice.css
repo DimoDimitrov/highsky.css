@@ -23,9 +23,8 @@
 .vfrc-chat,
 .vfrc-chat-container,
 .vfrc-launcher-container,
-.vfrc-widget-container,
-[class*="vfrc-"] {
-  right: 40px !important;
+.vfrc-widget-container{
+  right: 100px !important;
   left: auto !important;
   position: fixed !important;
   transform: none !important;
