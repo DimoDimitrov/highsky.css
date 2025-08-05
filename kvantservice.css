@@ -24,7 +24,7 @@
 .vfrc-chat-container,
 .vfrc-launcher-container,
 .vfrc-widget-container {
-  right: 200px !important;
+  right: 100px !important;
   left: auto !important;
   position: fixed !important;
   transform: none !important;
@@ -32,12 +32,12 @@
 }
 
 /* Force right positioning for any element with launcher in class name */
-/* [class*="launcher"] {
-  right: 40px !important;
+[class*="launcher"] {
+  right: 20px !important;
   left: auto !important;
   position: fixed !important;
-  bottom: 25px !important; /* Move higher from bottom 
-} */
+  bottom: 10px !important; /* Move higher from bottom */
+}
 
 /* Override any inline styles that might be set by JavaScript */
 .vfrc-launcher[style] {
