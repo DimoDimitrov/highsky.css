@@ -18,12 +18,12 @@
   display: none !important;
 }
 
-/* Target all possible Voiceflow positioning containers */
+/* Target specific Voiceflow positioning containers */
 .vfrc-widget,
 .vfrc-chat,
 .vfrc-chat-container,
 .vfrc-launcher-container,
-.vfrc-widget-container{
+.vfrc-widget-container {
   right: 100px !important;
   left: auto !important;
   position: fixed !important;
@@ -33,15 +33,15 @@
 
 /* Force right positioning for any element with launcher in class name */
 [class*="launcher"] {
-  right: 40px !important;
+  right: 20px !important;
   left: auto !important;
   position: fixed !important;
-  bottom: 25px !important; /* Move higher from bottom */
+  bottom: 50px !important; /* Move higher from bottom */
 }
 
 /* Override any inline styles that might be set by JavaScript */
 .vfrc-launcher[style] {
-  right: 40px !important;
+  right: 20px !important;
   left: auto !important;
   position: fixed !important;
 }
