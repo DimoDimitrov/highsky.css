@@ -20,6 +20,7 @@
   display: none !important;
 }
 
+
 /*WATERMARK*/
 .vfrc-footer--watermark {
     display: block; /* Ensures the element is in the layout */
@@ -29,7 +30,7 @@
 }
 
 .vfrc-footer--watermark::after {
-    content: 'Created by HighSkyAI for Sportensklad';
+    content: 'HighSkyAI | KvantService';
     font-size: 10px; /* Sets font size for new content */
     color: gray; /* Sets a non-intrusive gray color */
     cursor: default; /* Default cursor to indicate non-clickable text */
@@ -38,7 +39,7 @@
 
 /* Set the avatar image */
 .vfrc-avatar {
-  background-image: url('https://highsky-web.netlify.app/assets/logo-sportensklad-otpred-D0_2nqat.png') !important;
+  background-image: url('https://highsky.ai/assets/logo-sportensklad-otpred-D0_2nqat.png') !important;
   background-size: contain !important; /* Cover the entire area */
   background-position: center !important;
 }
