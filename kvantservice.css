@@ -24,7 +24,7 @@
 .vfrc-chat-container,
 .vfrc-launcher-container,
 .vfrc-widget-container {
-  right: 100px !important;
+  right: 200px !important;
   left: auto !important;
   position: fixed !important;
   transform: none !important;
@@ -36,7 +36,7 @@
   right: 35px !important;
   left: auto !important;
   position: fixed !important;
-  bottom: 20px !important; /* Move higher from bottom */
+  bottom: 35px !important; /* Move higher from bottom */
 }
 
 /* Override any inline styles that might be set by JavaScript */
