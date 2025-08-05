@@ -53,8 +53,6 @@
     text-align: center; /* Centers the text within the footer */
     font-size: 0; /* Hides original text if any exists, while keeping the element in document flow */
     width: 100%; /* Ensures the footer spans the full width of its container */
-    margin-top: -30px !important; /* Move watermark higher using negative margin */
-    transform: translateY(-20px) !important; /* Additional upward movement */
 }
 
 .vfrc-footer--watermark::after {
@@ -63,8 +61,6 @@
     color: gray; /* Sets a non-intrusive gray color */
     cursor: default; /* Default cursor to indicate non-clickable text */
     visibility: visible; /* Ensures it's seen */
-    display: block !important; /* Ensure it's displayed as block */
-    margin-top: -10px !important; /* Additional upward movement for the text */
 }
 
 /* Set the avatar image */
