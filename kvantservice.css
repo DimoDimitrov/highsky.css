@@ -19,12 +19,12 @@
 }
 
 /* Target all possible Voiceflow positioning containers */
-.vfrc-widget,
-.vfrc-chat,
+/* .vfrc-chat,
 .vfrc-chat-container,
 .vfrc-launcher-container,
-.vfrc-widget-container,
-[class*="vfrc-"] {
+.vfrc-widget-container, */
+/* [class*="vfrc-"] { */
+.vfrc-widget { 
   right: 40px !important;
   left: auto !important;
   position: fixed !important;
