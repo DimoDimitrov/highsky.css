@@ -25,7 +25,7 @@
 .vfrc-launcher-container,
 .vfrc-widget-container,
 [class*="vfrc-"] {
-  right: 20px !important;
+  right: 40px !important;
   left: auto !important;
   position: fixed !important;
   transform: none !important;
@@ -33,14 +33,14 @@
 
 /* Force right positioning for any element with launcher in class name */
 [class*="launcher"] {
-  right: 20px !important;
+  right: 40px !important;
   left: auto !important;
   position: fixed !important;
 }
 
 /* Override any inline styles that might be set by JavaScript */
 .vfrc-launcher[style] {
-  right: 20px !important;
+  right: 40px !important;
   left: auto !important;
   position: fixed !important;
 }
