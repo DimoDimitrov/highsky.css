@@ -28,7 +28,7 @@
   left: auto !important;
   position: fixed !important;
   transform: none !important;
-  bottom: 10px !important; /* Move higher from bottom */
+  top: calc(100vh - 100px) !important; /* Position from top instead of bottom */
 }
 
 /* Force right positioning for any element with launcher in class name */
@@ -52,6 +52,8 @@
     text-align: center; /* Centers the text within the footer */
     font-size: 0; /* Hides original text if any exists, while keeping the element in document flow */
     width: 100%; /* Ensures the footer spans the full width of its container */
+    position: relative !important; /* Enable positioning */
+    top: -20px !important; /* Move watermark higher using top */
 }
 
 .vfrc-footer--watermark::after {
@@ -60,6 +62,8 @@
     color: gray; /* Sets a non-intrusive gray color */
     cursor: default; /* Default cursor to indicate non-clickable text */
     visibility: visible; /* Ensures it's seen */
+    position: relative !important; /* Enable positioning */
+    top: -20px !important; /* Move watermark text higher */
 }
 
 /* Set the avatar image */
