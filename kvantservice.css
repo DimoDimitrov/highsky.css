@@ -33,10 +33,10 @@
 
 /* Force right positioning for any element with launcher in class name */
 [class*="launcher"] {
-  right: 20px !important;
+  right: 35px !important;
   left: auto !important;
   position: fixed !important;
-  bottom: 10px !important; /* Move higher from bottom */
+  bottom: 20px !important; /* Move higher from bottom */
 }
 
 /* Override any inline styles that might be set by JavaScript */
