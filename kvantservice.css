@@ -7,6 +7,10 @@
   height: 60px !important; /* Adjust height as needed */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
+  right: 20px !important; /* Position on the right side */
+  left: auto !important; /* Override default left positioning */
+  position: fixed !important; /* Ensure fixed positioning */
+  transform: none !important; /* Reset any transforms */
 }
 
 /* Ensure the existing icon is not visible */
@@ -14,6 +18,32 @@
   display: none !important;
 }
 
+/* Target all possible Voiceflow positioning containers */
+.vfrc-widget,
+.vfrc-chat,
+.vfrc-chat-container,
+.vfrc-launcher-container,
+.vfrc-widget-container,
+[class*="vfrc-"] {
+  right: 20px !important;
+  left: auto !important;
+  position: fixed !important;
+  transform: none !important;
+}
+
+/* Force right positioning for any element with launcher in class name */
+[class*="launcher"] {
+  right: 20px !important;
+  left: auto !important;
+  position: fixed !important;
+}
+
+/* Override any inline styles that might be set by JavaScript */
+.vfrc-launcher[style] {
+  right: 20px !important;
+  left: auto !important;
+  position: fixed !important;
+}
 
 /*WATERMARK*/
 .vfrc-footer--watermark {
