@@ -11,11 +11,25 @@
   bottom: 10px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
+  z-index: 10006 !important; /* Higher than cart z-index */
 }
 
 /* Ensure the existing icon is not visible */
 .vfrc-launcher img {
   display: none !important;
+}
+
+/* Chat container and overlay */
+.vfrc-widget {
+  z-index: 20000 !important; /* Higher than cart z-index */
+}
+
+.vfrc-overlay {
+  z-index: 20000 !important; /* Higher than cart z-index */
+}
+
+.vfrc-chat {
+  z-index: 20000 !important; /* Higher than cart z-index */
 }
 
 /*WATERMARK*/
