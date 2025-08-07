@@ -19,6 +19,15 @@
   display: none !important;
 }
 
+
+
+/* Target any element that might be part of the chat */
+[class*="vf-"],
+[class*="voiceflow"],
+[class*="chat"] {
+  z-index: 999999 !important; /* Much higher than cart z-index */
+}
+
 /* Force all chat-related elements to have maximum z-index */
 .vfrc-message,
 .vfrc-bubble,
