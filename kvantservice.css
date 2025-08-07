@@ -30,20 +30,20 @@
 
 /* Chat container and overlay */
 .vfrc-widget {
-  z-index: 100000 !important; /* Higher than cart z-index */
+  z-index: 999999 !important; /* Much higher than cart z-index */
 }
 
 .vfrc-overlay {
-  z-index: 100000 !important; /* Higher than cart z-index */
+  z-index: 999999 !important; /* Much higher than cart z-index */
 }
 
 .vfrc-chat {
-  z-index: 100000 !important; /* Higher than cart z-index */
+  z-index: 999999 !important; /* Much higher than cart z-index */
 }
 
 /* Target all Voiceflow elements with vfrc prefix */
 [class*="vfrc-"] {
-  z-index: 100000 !important; /* Higher than cart z-index */
+  z-index: 999999 !important; /* Much higher than cart z-index */
 }
 
 /* Specific chat interface elements */
@@ -51,13 +51,30 @@
 .vfrc-messages,
 .vfrc-input,
 .vfrc-footer {
-  z-index: 100000 !important; /* Higher than cart z-index */
+  z-index: 999999 !important; /* Much higher than cart z-index */
 }
 
 /* Ensure the chat container itself has proper stacking */
 .vfrc-container {
-  z-index: 100000 !important; /* Higher than cart z-index */
+  z-index: 999999 !important; /* Much higher than cart z-index */
   position: relative !important;
+}
+
+/* Target any element that might be part of the chat */
+[class*="vf-"],
+[class*="voiceflow"],
+[class*="chat"] {
+  z-index: 999999 !important; /* Much higher than cart z-index */
+}
+
+/* Force all chat-related elements to have maximum z-index */
+.vfrc-message,
+.vfrc-bubble,
+.vfrc-avatar,
+.vfrc-button,
+.vfrc-input-container,
+.vfrc-send-button {
+  z-index: 999999 !important; /* Much higher than cart z-index */
 }
 
 /*WATERMARK*/
