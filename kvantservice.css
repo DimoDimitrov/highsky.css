@@ -7,8 +7,8 @@
   height: 60px !important; /* Adjust height as needed */
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
-  right: 30px !important;
-  bottom: 30px !important;
+  right: 20px !important;
+  bottom: 20px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
 }
