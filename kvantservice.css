@@ -11,12 +11,20 @@
   bottom: 10px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
-  z-index: 10006 !important; /* Higher than cart z-index */
+  z-index: 100000 !important; /* Higher than cart z-index */
 }
 
 /* Ensure the existing icon is not visible */
 .vfrc-launcher img {
   display: none !important;
+}
+
+/* Root Voiceflow container - target the main wrapper */
+#vf-widget,
+[data-voiceflow-chat],
+.voiceflow-chat,
+.vf-widget {
+  z-index: 100000 !important; /* Higher than cart z-index */
 }
 
 /* Chat container and overlay */
@@ -30,6 +38,25 @@
 
 .vfrc-chat {
   z-index: 100000 !important; /* Higher than cart z-index */
+}
+
+/* Target all Voiceflow elements with vfrc prefix */
+[class*="vfrc-"] {
+  z-index: 100000 !important; /* Higher than cart z-index */
+}
+
+/* Specific chat interface elements */
+.vfrc-header,
+.vfrc-messages,
+.vfrc-input,
+.vfrc-footer {
+  z-index: 100000 !important; /* Higher than cart z-index */
+}
+
+/* Ensure the chat container itself has proper stacking */
+.vfrc-container {
+  z-index: 100000 !important; /* Higher than cart z-index */
+  position: relative !important;
 }
 
 /*WATERMARK*/
