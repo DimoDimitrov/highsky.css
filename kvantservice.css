@@ -21,15 +21,15 @@
 
 /* Chat container and overlay */
 .vfrc-widget {
-  z-index: 20000 !important; /* Higher than cart z-index */
+  z-index: 100000 !important; /* Higher than cart z-index */
 }
 
 .vfrc-overlay {
-  z-index: 20000 !important; /* Higher than cart z-index */
+  z-index: 100000 !important; /* Higher than cart z-index */
 }
 
 .vfrc-chat {
-  z-index: 20000 !important; /* Higher than cart z-index */
+  z-index: 100000 !important; /* Higher than cart z-index */
 }
 
 /*WATERMARK*/
