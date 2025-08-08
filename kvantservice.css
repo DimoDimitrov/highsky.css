@@ -13,17 +13,17 @@
 } */
 
 /* Chat container and overlay */
-.vfrc-widget {
-  z-index: 999999 !important; /* Much higher than cart z-index */
+/* .vfrc-widget {
+  z-index: 999999 !important;
 }
 
 .vfrc-overlay {
-  z-index: 999999 !important; /* Much higher than cart z-index */
-}
+  z-index: 999999 !important;
+} */
 
 .vfrc-chat,
 .voiceflow-chat {
-  z-index: 999999 !important; /* Much higher than cart z-index */
+  z-index: 999999 !important;
 }
 
 /* Target all Voiceflow elements with vfrc prefix */
