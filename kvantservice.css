@@ -45,7 +45,7 @@
 }
 
 /* Target any element that might be part of the chat */
-[class*="voiceflow"],
+
 [class*="chat"] {
   z-index: 999999 !important; /* Much higher than cart z-index */
 }
