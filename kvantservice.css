@@ -73,5 +73,5 @@
   bottom: 10px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
-  z-index: 1000 !important;
+  z-index: 500 !important;
 }
