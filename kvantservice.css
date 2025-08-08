@@ -1,18 +1,3 @@
-/* CHAT BUBBLE ICON */
-.vfrc-launcher {
-  background-image: url('https://highsky-web.netlify.app/assets/skalad-Bo7E4SNS.png') !important;
-  background-size: contain !important;
-  background-position: center !important;
-  width: 60px !important; /* Adjust width as needed */
-  height: 60px !important; /* Adjust height as needed */
-  border: none !important; /* Remove any borders */
-  padding: 0 !important; /* Remove any padding */
-  right: 10px !important;
-  bottom: 10px !important;
-  position: fixed !important; /* Ensure fixed positioning */
-  transform: none !important; /* Reset any transforms */
-}
-
 /* Ensure the existing icon is not visible */
 .vfrc-launcher img {
   display: none !important;
@@ -101,4 +86,20 @@
 /* Ensure the existing avatar is not visible */
 .vfrc-avatar img {
   display: none !important;
+}
+
+/* CHAT BUBBLE ICON */
+.vfrc-launcher {
+  background-image: url('https://highsky-web.netlify.app/assets/skalad-Bo7E4SNS.png') !important;
+  background-size: contain !important;
+  background-position: center !important;
+  width: 60px !important; /* Adjust width as needed */
+  height: 60px !important; /* Adjust height as needed */
+  border: none !important; /* Remove any borders */
+  padding: 0 !important; /* Remove any padding */
+  right: 10px !important;
+  bottom: 10px !important;
+  position: fixed !important; /* Ensure fixed positioning */
+  transform: none !important; /* Reset any transforms */
+  z-index: 50000 !important; /* Much higher than cart z-index */
 }
