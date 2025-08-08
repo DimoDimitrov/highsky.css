@@ -26,9 +26,9 @@
 }
 
 /* Target all Voiceflow elements with vfrc prefix */
-[class*="vfrc-"] {
-  z-index: 999999 !important; /* Much higher than cart z-index */
-}
+/* [class*="vfrc-"] {
+  z-index: 999999 !important; Much higher than cart z-index 
+}*/
 
 /* Specific chat interface elements */
 .vfrc-header,
@@ -100,17 +100,5 @@
   bottom: 10px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
-  z-index: 999 !important; /* Lower z-index to go under chat */
-}
-
-/* When chat is active, hide or lower the launcher */
-.vfrc-widget--open .vfrc-launcher {
-  z-index: 100 !important; /* Much lower when chat is open */
-  opacity: 0.5 !important; /* Make it semi-transparent */
-  pointer-events: none !important; /* Disable clicks when chat is open */
-}
-
-/* Alternative: completely hide the launcher when chat is open */
-.vfrc-widget--open .vfrc-launcher {
-  display: none !important;
+  z-index: 1000 !important; /* Much higher than cart z-index */
 }
