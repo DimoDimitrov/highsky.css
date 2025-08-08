@@ -46,7 +46,7 @@
 
 /* Target any element that might be part of the chat */
 
-[class*="chat"] {
+[class*="chat"]:not(.vfrc-launcher) {
   z-index: 999999 !important; /* Much higher than cart z-index */
 }
 
@@ -88,6 +88,7 @@
 }
 
 /* CHAT BUBBLE ICON - Positioned within the chat interface */
+/* TARGET: This is the launcher bubble itself */
 .vfrc-launcher {
   background-image: url('https://highsky-web.netlify.app/assets/skalad-Bo7E4SNS.png') !important;
   background-size: contain !important;
