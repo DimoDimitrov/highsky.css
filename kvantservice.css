@@ -13,13 +13,13 @@
 } */
 
 /* Chat container and overlay */
-.vfrc-widget {
+/*.vfrc-widget {
   z-index: 999999 !important;
 }
 
 .vfrc-overlay {
   z-index: 999999 !important;
-}
+}*/
 
 .vfrc-chat,
 .voiceflow-chat {
