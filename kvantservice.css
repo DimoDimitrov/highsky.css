@@ -11,7 +11,7 @@
   bottom: 10px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
-  z-index: 999999 !important; /* Much higher than cart z-index */
+  z-index: 80000 !important; /* Much higher than cart z-index */
 }
 
 /* Ensure the existing icon is not visible */
