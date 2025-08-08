@@ -11,7 +11,7 @@
   /* margin: 0 !important; Remove any margin */
   border-radius: 50% !important; /* Make it circular */
   overflow: hidden !important; /* Hide the blue background */
-  clip-path: circle(63% at center) !important; /* Clip to show only the center portion */
+  clip-path: circle(10% at center) !important; /* Clip to show only the center portion */
 }
 
 /* Ensure the existing icon is not visible */
