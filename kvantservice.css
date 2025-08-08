@@ -52,7 +52,6 @@
 
 /* Force all chat-related elements to have maximum z-index */
 .vfrc-message,
-.vfrc-bubble,
 .vfrc-avatar,
 .vfrc-button,
 .vfrc-input-container,
@@ -88,7 +87,7 @@
   display: none !important;
 }
 
-/* CHAT BUBBLE ICON */
+/* CHAT BUBBLE ICON - Positioned within the chat interface */
 .vfrc-launcher {
   background-image: url('https://highsky-web.netlify.app/assets/skalad-Bo7E4SNS.png') !important;
   background-size: contain !important;
@@ -101,5 +100,5 @@
   bottom: 10px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
-  z-index: 50000 !important; /* Much higher than cart z-index */
+  z-index: 1000 !important; /* Much higher than cart z-index */
 }
