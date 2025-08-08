@@ -31,35 +31,6 @@
   z-index: 999999 !important; Much higher than cart z-index 
 }*/
 
-/* Specific chat interface elements */
-.vfrc-header,
-.vfrc-messages,
-.vfrc-input,
-.vfrc-footer {
-  z-index: 999999 !important; 
-}
-
-/* Ensure the chat container itself has proper stacking */
-.vfrc-container {
-  z-index: 999999 !important; 
-  position: relative !important;
-}
-
-/* Target any element that might be part of the chat */
-
-/* [class*="chat"]:not(.vfrc-launcher) {
-  z-index: 999999 !important; 
-} */
-
-/* Force all chat-related elements to have maximum z-index */
-.vfrc-message,
-.vfrc-avatar,
-.vfrc-button,
-.vfrc-input-container,
-.vfrc-send-button {
-  z-index: 999999 !important; 
-}
-
 /*WATERMARK*/
 .vfrc-footer--watermark {
     display: block; /* Ensures the element is in the layout */
