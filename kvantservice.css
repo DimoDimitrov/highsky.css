@@ -4,13 +4,13 @@
 }
 
 /* Root Voiceflow container - target the main wrapper */
-#vf-widget,
+/* #vf-widget,
 [data-voiceflow-chat],
 .voiceflow-chat,
 .vf-widget,
 [data-vf-container] {
   z-index: 999999 !important;
-}
+} */
 
 /* Chat container and overlay */
 /*.vfrc-widget {
@@ -21,10 +21,10 @@
   z-index: 999999 !important;
 }*/
 
-.vfrc-chat,
+/* .vfrc-chat,
 .voiceflow-chat {
   z-index: 999999 !important;
-}
+} */
 
 /* Target all Voiceflow elements with vfrc prefix */
 /* [class*="vfrc-"] {
@@ -73,5 +73,4 @@
   bottom: 10px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
-  z-index: 10 !important;
 }
