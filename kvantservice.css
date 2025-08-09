@@ -70,7 +70,7 @@
   border: none !important; /* Remove any borders */
   padding: 0 !important; /* Remove any padding */
   right: 10px !important;
-  bottom: 10px !important;
+  bottom: 100px !important;
   position: fixed !important; /* Ensure fixed positioning */
   transform: none !important; /* Reset any transforms */
 }
