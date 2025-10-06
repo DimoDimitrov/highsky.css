@@ -30,15 +30,3 @@
     cursor: default; /* Default cursor to indicate non-clickable text */
     visibility: visible; /* Ensures it's seen */
 }
-
-/* Set the avatar image */
-.vfrc-avatar {
-  background-image: url('https://highsky-web.netlify.app/assets/skalad-Bo7E4SNS.png') !important;
-  background-size: contain !important; /* Cover the entire area */
-  background-position: center !important;
-}
-
-/* Ensure the existing avatar is not visible */
-.vfrc-avatar img {
-  display: none !important;
-}
