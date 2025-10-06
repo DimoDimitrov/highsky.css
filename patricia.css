@@ -30,3 +30,8 @@
     cursor: default; /* Default cursor to indicate non-clickable text */
     visibility: visible; /* Ensures it's seen */
 }
+
+/* Ensure the existing avatar is not visible */
+.vfrc-avatar img {
+  display: none !important;
+}
