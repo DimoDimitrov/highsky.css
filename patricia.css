@@ -24,7 +24,7 @@
 }
 
 .vfrc-footer--watermark::after {
-    content: 'Created by HighSkyAI for Patricia';
+    content: 'HighSkyAI | Patricia';
     font-size: 10px; /* Sets font size for new content */
     color: gray; /* Sets a non-intrusive gray color */
     cursor: default; /* Default cursor to indicate non-clickable text */
