@@ -9,6 +9,11 @@
   padding: 0 !important; /* Remove any padding */
 }
 
+/* Ensure the existing icon is not visible */
+.vfrc-launcher img {
+  display: none !important;
+}
+
 
 /*WATERMARK*/
 .vfrc-footer--watermark {
