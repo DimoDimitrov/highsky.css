@@ -58,7 +58,7 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
   .vfrc-launcher {
-    bottom: 120px !important;
+    bottom: 160px !important;
     left: 20px !important;
     /* transform: translateX(-50%) !important; */
   }
