@@ -7,6 +7,7 @@
     height: 60px !important; /* Adjust height as needed */
     border: none !important; /* Remove any borders */
     padding: 0 !important; /* Remove any padding */
+    position: fixed !important;
   }
   
   /* Ensure the existing icon is not visible */
@@ -47,15 +48,18 @@
   
   /* Desktop (default) */
 @media screen and (min-width: 769px) {
-  .vf-chat-button {
+  .vfrc-launcher {
     bottom: 20px !important;
+    left: 20px !important;
+    transform: none !important;
   }
 }
 
 /* Mobile */
 @media screen and (max-width: 768px) {
-  .vf-chat-button {
+  .vfrc-launcher {
     bottom: 120px !important;
-    transform: translateX(-50%) !important;
+    left: 20px !important;
+    /* transform: translateX(-50%) !important; */
   }
 }
